@@ -1,7 +1,7 @@
 ## JWT-Based Authentication for RESTFul APIs
 #### django-rest-framework-simplejwt - A JSON Web Token authentication plugin for the Django REST Framework.
 
-simplejwt plugin is being used to authenticate the APIs.
+django-rest-framework-simplejwt plugin is being used to authenticate the APIs.
 
 The cURL scripts are as follows - 
 
