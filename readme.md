@@ -5,7 +5,7 @@ simplejwt plugin is being used to authenticate the APIs.
 
 The cURL scripts are as follows - 
 
-GET request to get the bank/branch details for a given IFSC code
+GET request to get the bank/branch details for a given IFSC code.
 <pre>
 curl -X GET \
   'http://localhost:8000/api/bank_detail/?limit=7&offset=0&ifsc=YESB0GSB001' \
@@ -15,7 +15,7 @@ curl -X GET \
   -H 'cache-control: no-cache'
 </pre>
 
-GET request to get the details of various branches for given bank and city
+GET request to get the details of various branches for given bank and city.
 <pre>
 curl -X GET \
   'http://localhost:8000/api/branch_detail/?limit=7&offset=4&name=YES%20BANK&city=NAGPUR' \
