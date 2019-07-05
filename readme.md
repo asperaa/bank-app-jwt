@@ -24,3 +24,5 @@ curl -X GET \
   -H 'Postman-Token: 55c06a7b-7f4f-4b84-8b75-603edb96e06b' \
   -H 'cache-control: no-cache'
 </pre>
+
+Note: You can execute .sh file for each of the above cURL scripts which are present in bank/bank_details.sh and bank/branch_details.sh .
